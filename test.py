@@ -13,6 +13,7 @@ def main():
     p = Process(target=flashing, args=(batcmd,))
     p.start()
     p.join()
+    print(p)
     print("call multiprocess")
 if __name__ == "__main__":
     for x in range(1,10):
