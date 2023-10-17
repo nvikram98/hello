@@ -15,6 +15,7 @@ def main():
     p.join()
     print(p)
     print("call multiprocess")
+    print("completed process")
 if __name__ == "__main__":
     for x in range(1,10):
         print(x)
