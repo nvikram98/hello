@@ -5,7 +5,7 @@ from multiprocessing import Process
 batcmd = """@ECHO OFF ECHO Hello World! Your first batch file was printed on the screen successfully."""
 def data(dataset):
     for d in dataset:
-        print("datasets",d)
+        print("datasets files ",d)
 def flashing(flashcmd):
     subprocess.call(flashcmd, shell=True)
     return 0
