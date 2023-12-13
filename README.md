@@ -5,8 +5,6 @@ daya
 adding readme.md lines
 
 
-sdadd
-
 
 
 adding the test mail functionality
